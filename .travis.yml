@@ -1,6 +1,6 @@
 language: go
 
 go:
-  - 1.6.3
-  - 1.7
-  - tip
+  - 1.6.x # for testing context/context_pre_go17.go
+  - 1.x.x # for testing context/context_go17.go
+  - master
